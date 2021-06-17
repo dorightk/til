@@ -1,8 +1,8 @@
 ## replace
-대상 문자열에 old value를 newvalue로 replace
+대상 문자열에 또는 list의 old value를 newvalue로 replace
 
 ### parameter
-string.(oldvalue, newvalue, count)
+문자열 or 변수.(oldvalue, newvalue, count)
 
 -oldvalue : required, 문자열 내 바꿔야할 value   
 -newvalue : required, 바뀔 newvalue   
