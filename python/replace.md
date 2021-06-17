@@ -4,8 +4,8 @@
 ### parameter
 string.(oldvalue, newvalue, count)
 
--oldvalue : required, 문자열 내 바꿔야할 value
--newvalue : required, 바뀔 newvalue
+-oldvalue : required, 문자열 내 바꿔야할 value   
+-newvalue : required, 바뀔 newvalue   
 -count : 문자열 내 앞에서 부터 replace를 실행 할 count
 
 ### 사용법
