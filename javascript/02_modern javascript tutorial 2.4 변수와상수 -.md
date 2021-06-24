@@ -1,5 +1,3 @@
-# 02_modern javascript tutorial 2.2 변수와 상수
-
 ## 변수(Variable)
 
 - 사용자나 서버로 부터 입력받은 정보를 저장하는 용도로 사용됨
@@ -7,31 +5,31 @@
 - `let` 으로 생성
 - 변수 선언
 
-  ```
+```
   let message;
 
   //message라는 이름을 가진 상자
-  ```
+```
 
 - 변수에 값 할당
 
-  ```
+```
   let message;
 
   message = 'Hello';
 
   // 'Hello'를 message라는 이름을 가진 상자에 저장
-  ```
+```
 
 - 가독성
 
-  ````
+```
   let user = 'John', age = 25, message = 'Hello';
 
       let user = 'John';
       let age = 25;
       let message = 'Hello';
-  ```
+```
 
   > 한줄에 작성하기 보다 여러줄에 작성하여 가독성을 높이자
 
@@ -51,19 +49,19 @@ message = Hello;
 > admin 변수에 값을 넣기 위해서는, 왼쪽에 admin 오른쪽에 value값을 가진 변수를 놓는다
 
 - 변수는 한번만 선언해야함
-  > 변수는 두 번 선언 하면 에러 발생
+> 변수는 두 번 선언 하면 에러 발생
 
 ~~함수형 언어는 변숫값 변경을 금지함(Scala, Erlang)~~
 
 ---
 
-## 상수
+## 상수(constant)
 
 - 변화 하지 않는 변수 = 상수
 - `const`로 생성
 - let과 달리 상수를 선언할 때 값도 함께 할당해 줘야함
 
-  ```
+```
   const name;
 
   name = 'John'
@@ -77,7 +75,7 @@ message = Hello;
 
 - 한번 설정된 상수는 변경되지 않음
 
-  ```
+```
   const myBirthday = '18.04.1982';
 
   myBirthday = '01.01.2001';
@@ -89,7 +87,7 @@ message = Hello;
 
 - 대문자 상수 : 하드 코딩한 값을 가진 상수는 대문자로 상수명 작성(하드 코딩 : 코드 실행전, 런타임 전, 코드 작성 단계부터 값을 할당 하는 것)
 
-  ```
+```
   const COLOR_RED = "#F00";
   const COLOR_GREEN = "#0F0";
 
@@ -97,7 +95,7 @@ message = Hello;
   ```
 
 - 일반적인 상수 : 런타임 중에 값이 할당되고, 그 최초값이 변하지 않는 상수
-  ```
+```
   const age = someCode(birthday)
   ```
 
@@ -130,9 +128,14 @@ message = Hello;
 
 ```
 - userName 이나 shoppingCart처럼 사람이 읽을 수 있는 이름을 사용하세요.
-- 무엇을 하고 있는지 명확히 알고 있지 않을 경우 외에는 줄임말이나 a, b, c와 같은 짧은 이름은 피하세요.
-- 최대한 서술적이고 간결하게 명명해 주세요. data와 value는 나쁜 이름의 예시입니다. 이런 이름은 아무것도 설명해주지 않습니다. 코드 문맥상 변수가 가리키는 데이터나 값이 아주 명확할 때에만 이런 이름을 사용합시다.
-- 자신만의 규칙이나 소속된 팀의 규칙을 따르세요. 만약 사이트 방문객을 'user’라고 부르기로 했다면, 이와 관련된 변수를 currentVisitor나 newManInTown이 아닌 currentUser나 newUser라는 이름으로 지어야 합니다.
+- 무엇을 하고 있는지 명확히 알고 있지 않을 경우 외에는 줄임말이나 a, b, c와 같은
+짧은 이름은 피하세요.
+- 최대한 서술적이고 간결하게 명명해 주세요. data와 value는 나쁜 이름의 예시입니다.
+이런 이름은 아무것도 설명해주지 않습니다. 코드 문맥상 변수가 가리키는 데이터나 값이
+아주 명확할 때에만 이런 이름을 사용합시다.
+- 자신만의 규칙이나 소속된 팀의 규칙을 따르세요. 만약 사이트 방문객을 'user’라고
+부르기로 했다면, 이와 관련된 변수를 currentVisitor나newManInTown이 아닌
+currentUser나 newUser라는 이름으로 지어야 합니다.
 
 출처 - https://ko.javascript.info/variables
 ```
