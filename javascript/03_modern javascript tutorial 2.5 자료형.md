@@ -1,0 +1,1 @@
+# 03_modern javascript tutorial 2.5 자료형
