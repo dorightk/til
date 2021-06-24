@@ -1,4 +1,4 @@
-# 모던 javascript 튜토리얼 2.2 코드 구조 - 세미콜론과 주석
+# 01_모던 javascript 튜토리얼 2.2 코드 구조 - 세미콜론과 주석
 
 ## ;(세미콜론)은 꼭 필요한가
  core javascript에서 automatical semicolon insertion에 의해 줄바꿈이 있다면 세미 콜론은 자동으로 삽입된다.   
