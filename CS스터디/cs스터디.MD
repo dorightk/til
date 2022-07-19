@@ -1,2 +1,1 @@
-스터디기록
-https://www.notion.so/ohbin-kwon/CS-2c90d49b8b0c4ee280d33a42464ad0b8
+[스터디기록](https://ohbin-kwon.notion.site/cs-d865e714b2fc4d64ac0f000e27bd348b)
